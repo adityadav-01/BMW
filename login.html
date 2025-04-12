@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        let mobileNumber = prompt("Please enter your mobile number:");
+
+        if (mobileNumber.length >= 10) {
+            alert("Thank you! Your number has been saved.");
+        } else {
+            alert("Wrong mobile number, please sign up.");
+            window.location.href = "signUp.html";
+        }
+    </script>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/header.css">
+</head>
+<body>
+    <div class="background">
+        <header>
+            <div class="navbar">
+                <div class="logo">
+                    <img src="/images/logo.png" style="width: 50px; height: 40px; margin-right: 20px;">
+                    <span>BMW</span>
+                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="model.html">Model</a></li>
+                        <li><a href="electric.html">Electric</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                    </ul>
+                </nav>
+                <a href="tablebooking.html" class="btn-reservation">Test Drive</a>
+                <a href="login.html" class="btn-reservation">login</a>
+            </div>
+        </header> 
+    <div class="login-container">
+        <h2>Login</h2>
+        <form>
+            <label>Username or Registration Mobile Number</label>
+            <input type="text" placeholder="Username or Mobile number" required>
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter your password" required>
+            <input type="checkbox"><b>Confirm Details</b>
+<div class="btn">
+            <a href="home.html"><button>Login</button></a>
+            <a href="home.html" class="skip-link">Skip</a>
+</div>
+            <p>Don't have an account? <a href="signUp.html" class="sign">Sign up here</a></p>
+           
+        </form>
+    </div>
+    </div>
+</body>
+</html>

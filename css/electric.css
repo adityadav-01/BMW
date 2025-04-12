@@ -1,0 +1,59 @@
+.background{
+    height: 280vh;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.b1{
+    height: 38%;
+    width: 100%;
+    background-image: url('/images/box2.jpg');
+    background-size: cover;
+    font-size:x-large;
+}
+.b1 h1 {
+    margin-top: 100px;
+}
+button{
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(60, 60, 255);
+    color:white;
+    height: 50px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: none;
+}
+button:hover{
+    background-color: rgb(40, 40, 200);
+    color: black;
+    cursor: pointer;
+
+}
+.b2{
+    height: 200px;
+    width: 90%;
+    padding: 50px;
+    font-size: larger;
+    
+}
+.b3{
+    height:900px;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.b3 h2{
+    width: 100%;
+    margin-left: 50px;
+}
+.b{
+    height: 350px;
+    width: 40%;
+    font-size: larger;  
+}
+.b img:hover{
+    transform: scale(1.1);
+}
